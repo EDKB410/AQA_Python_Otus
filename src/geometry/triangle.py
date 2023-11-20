@@ -10,6 +10,7 @@ class Triangle(BaseFigure):
         if side_a + side_b < side_c or side_a + side_c < side_b or side_c + side_b < side_a:
             raise ValueError(f"Невозможно создать триангл "
                              f"{self.__class__.__name__}!")
+        self.name = f"Triangle {side_a} X {side_b} X {side_c}"
 
     def area(self):
         half_perimeter = sum(self.sides) / 2
@@ -18,4 +19,4 @@ class Triangle(BaseFigure):
         return area
 
     def perimeter(self):
-        return "Perimeter", sum(self.sides)
+        return sum(self.sides)

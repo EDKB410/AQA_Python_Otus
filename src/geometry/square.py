@@ -8,3 +8,4 @@ class Square(Rectangle):
         self.check_args(side_a, side_b)
         side = min(side_a, side_b)
         super().__init__(side, side)
+        self.name = f"Square {side}"
