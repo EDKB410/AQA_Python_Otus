@@ -8,5 +8,8 @@ venv.bak/
 # IDE
 .idea/
 
+data/
+
 # Tests
 .pytest_cache/
+
