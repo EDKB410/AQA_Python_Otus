@@ -1,7 +1,7 @@
-from src.geometry.rectangle import Rectangle
-from src.geometry.circle import Circle
-from src.geometry.square import Square
-from src.geometry.triangle import Triangle
+from HW.geometry import Rectangle
+from HW.geometry.circle import Circle
+from HW.geometry.square import Square
+from HW.geometry.triangle import Triangle
 
 import pytest
 

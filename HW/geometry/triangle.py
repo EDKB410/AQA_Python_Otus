@@ -1,6 +1,6 @@
 import math
 
-from src.geometry.base_figure import BaseFigure
+from HW.geometry.base_figure import BaseFigure
 
 
 class Triangle(BaseFigure):
