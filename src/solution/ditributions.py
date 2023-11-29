@@ -5,10 +5,8 @@ import csv
 def parse_books():
     with open('data/books.csv') as book:
         csvfile = csv.DictReader(book)
-        booklist0 = [book_dict for book_dict in csvfile]
-
         booklist = []
-        for book in booklist0:
+        for book in csvfile:
             booklist.append({k.lower(): v for k, v in book.items()})
     return booklist
 
