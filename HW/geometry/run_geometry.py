@@ -1,7 +1,7 @@
-from src.geometry.circle import Circle
-from src.geometry.rectangle import Rectangle
-from src.geometry.square import Square
-from src.geometry.triangle import Triangle
+from HW.geometry.circle import Circle
+from HW.geometry.rectangle import Rectangle
+from HW.geometry.square import Square
+from HW.geometry.triangle import Triangle
 
 if __name__ == '__main__':
 

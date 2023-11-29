@@ -1,4 +1,4 @@
-from src.geometry.rectangle import Rectangle
+from HW.geometry.rectangle import Rectangle
 
 
 class Square(Rectangle):
